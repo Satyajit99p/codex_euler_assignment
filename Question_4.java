@@ -9,6 +9,7 @@ int x=0;
 {
 	for(int j=100;j<=999;j++)
 	{
+		int q=i*j;
 		int p=i*j;
 		int r=0;
 		while(p!=0)
@@ -17,7 +18,7 @@ int x=0;
 			r=(r*10)+d;
 			p=p/10;
 		}
-		if(r==p)
+		if(r==q)
 			 x=r>x?r:x;
 	}
 }
