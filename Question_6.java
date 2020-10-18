@@ -2,7 +2,6 @@
 public class Question_6 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 double s=0;
 int p=0;
 double x=0;
